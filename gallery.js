@@ -64,7 +64,6 @@ const images = [
   },
 ];
 const gallery = document.querySelector("ul.gallery");
-// dodaje galerie
 const markupGallery = images
   .map(
     ({ preview, original, description }) => `<li class="gallery-item">
